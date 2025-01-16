@@ -1,0 +1,6 @@
+# 규칙
+
+* Twitter api 사용시 항상 agent-twitter-client 사용
+* https://github.com/elizaOS/agent-twitter-client 문서를 하
+* docs/agent-twitter-client.readme.md 문서를 꼭 읽을 것
+* docs/agent-twitter-client.example.ts 문서를 꼭 읽을 것s
