@@ -12,23 +12,24 @@ class TimelineReader {
     try {
       await this.scraper.setCookies(cookies);
 
-      console.log('Cookies set:', await this.scraper.getCookies());
+      // console.log('Cookies set:', await this.scraper.getCookies());
 
-      const profile = await this.getMyProfile();
-      if (profile) {
-        console.log('Successfully logged in to Twitter using cookies');
-      } else {
-        console.log('Failed to log in to Twitter using cookies');
-      }
+    //   const profile = await this.getMyProfile();
+    //   if (profile) {
+    //     console.log('Successfully logged in to Twitter using cookies');
+    //   } else {
+    //     console.log('Failed to log in to Twitter using cookies');
+    //   }
     } catch (error: any) {
       console.error('Error during login:', error);
+  
     }
   }
 
   async getMyProfile() {
     try {
       const profile = await this.scraper.me();
-      console.log('My Profile:', profile);
+   //   console.log('My Profile:', profile);
       return profile;
     } catch (error: any) {
       console.error('Error fetching profile:', error);

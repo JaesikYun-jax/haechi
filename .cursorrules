@@ -3,6 +3,6 @@
 * 한글로 답할 수 없는 경우 영어로 답할것
 * Twitter api 사용시 항상 agent-twitter-client 사용
 * https://github.com/elizaOS/agent-twitter-client 문서를 하나씩 읽을 것
-* docs/agent-twitter-client.readme.md 문서를 꼭 읽을 것
-* docs/agent-twitter-client.example.ts 문서를 꼭 읽을 것s
+* docs/agent-twitter-client.readme.md 문서에 나오는 메서드를 우선으로 사용할 것
+* docs/agent-twitter-client.example.ts 문서를 꼭 읽고 문서에 나오는 메서드를 우선으로 사용할 것 
 
