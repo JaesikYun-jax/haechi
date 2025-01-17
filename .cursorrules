@@ -1,6 +1,8 @@
 # 규칙
-
+* 피치 못할 경우를 제외하면 한글로 답할것
+* 한글로 답할 수 없는 경우 영어로 답할것
 * Twitter api 사용시 항상 agent-twitter-client 사용
-* https://github.com/elizaOS/agent-twitter-client 문서를 하
+* https://github.com/elizaOS/agent-twitter-client 문서를 하나씩 읽을 것
 * docs/agent-twitter-client.readme.md 문서를 꼭 읽을 것
 * docs/agent-twitter-client.example.ts 문서를 꼭 읽을 것s
+
